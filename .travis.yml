@@ -2,13 +2,16 @@ language: julia
 
 os:
   - linux
-  - osx
-  - windows
+
+virt: lxd
+
+group: edge
 
 arch:
   - amd64
   - i386
   - arm64
+  - arm64-graviton2
 
 julia:
   - 1.3
